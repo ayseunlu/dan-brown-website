@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+/*font family*/
+
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("../images/bg.gif");
+}
+h1, h2{
+	font-family: 'Great Vibes', cursive;
+	margin-left: 20px;
+	font-size: 24px;
+}
+
+p{ 
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	text-indent: 15px;
+	margin-bottom: 5px;
+}
+nav{
+	width: 400px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	margin: 230px 15px;
+	background-image: url("../images/menu.jpg");
+	padding: 24px 0;
+	position: fixed;
+	/*menünün sabit kalmasını sağlıyoruz*/
+}
+main{
+	width: 760px;
+	height: auto;
+	float: left;
+	margin-left: 430px;
+}
+section{
+	width: 760px;
+	float: left;
+	min-height: 250px;
+	height: auto;
+	background-color: rgba(255,255,255,0.70);
+	padding: 10px;
+	margin-bottom: 15px;
+}
+section img{
+	float: left;
+	margin-right: 15px;
+	width: 170px;
+	height: auto;
+	border: 4px double rgba(77, 62, 47, 1.0);	
+}
+nav ul{
+	display: block;
+	padding: 15px;
+}
+nav ul li{
+	list-style-type: none;
+}
+nav ul li a{
+	color: rgba(77, 62, 47, 1.0) ;
+	text-decoration:none ;
+	font-family: 'Great Vibes', cursive;
+	font-size: 24px;
+	margin-top: 14px;
+	display: block;
+	/*Ul içindeki elementlerin kutu olmasını sağlar*/
+}
+nav ul li a:hover{
+	color:  rosybrown;
+	transition: ease 1s;
+}
+
+
